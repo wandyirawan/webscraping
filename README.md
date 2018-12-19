@@ -1,29 +1,8 @@
 # client
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## how to deploy to heroku
+1. download or clone this repo
+2. install heroku cli at your pc / laptop
+3. after login, $ heroku create
+4. edit .env to your api server or deploymen of https://github.com/wandyirawan/scraping
+5. push to heroku: $ git push heroku master
